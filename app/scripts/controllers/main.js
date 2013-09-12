@@ -9,6 +9,6 @@ angular.module('nojsDemoAppApp')
     ];
     $timeout(function() {
       localStorage.setItem('scrape-away', true);
-      $scope.awesomeThings.push("NOJS!!");
-    }, 0)
+      $scope.awesomeThings.push('NOJS!!');
+    }, 0);
   });

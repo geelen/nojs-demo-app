@@ -12,4 +12,4 @@ angular.module('nojsDemoAppApp', [])
       });
   });
 
-localStorage.setItem('scrape-away', false)
+localStorage.setItem('scrape-away', false);
