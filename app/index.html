@@ -7,6 +7,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title></title>
+
+    <noscript>
+     <meta http-equiv="refresh" content="0; url='?nojs=true'">
+    </noscript>
+
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -40,6 +45,12 @@
       (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
       g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
       s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+
+    <script type="text/javascript">
+      (function(r, l, h) {
+        if (l[h].match(r)) l[h] = l[h].replace(r, '');
+      })(/\?nojs=true/, window.location, 'href');
     </script>
   </body>
 </html>

@@ -11,5 +11,3 @@ angular.module('nojsDemoAppApp', [])
         redirectTo: '/'
       });
   });
-
-localStorage.setItem('scrape-away', false);
